@@ -1,0 +1,65 @@
+.text_area{
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+
+.text_area:focus{
+    border: 1px solid #0C0;
+}
+
+.getRed{
+    border: 1px solid red;
+}
+
+.getNormal{
+    border: 1px solid #0C0;
+}
+
+#btn{
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #FF8500;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+}
+
+label {
+    width: 100px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+.flexb{
+    display: flex;
+    justify-content: space-around;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tile{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.table_row{
+    display: flex;
+}
+
+.table_container{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#head{
+    width: 320px;
+    margin-bottom: 30px;
+}
